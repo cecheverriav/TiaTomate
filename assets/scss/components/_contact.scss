@@ -1,0 +1,43 @@
+.contact {
+ 
+    background-color: $jelly-bean;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    h2 {
+        font-size: $x-large;
+        font-weight: $font-bold;
+    }
+ 
+    &__button {
+        background: $white;
+        color: $granite-gray;
+        border-radius: 50px;
+        padding: 0.5rem 3rem;
+        font-size: $large;
+        font-weight: $font-bold;
+        border: 1px solid $gray;
+
+        &--small {
+            margin-right: 0.75rem;
+        }
+
+        &--hover:hover {
+            background: $taupe-gray;
+            color: $white;
+        }
+    
+        &--focus:focus {
+            background: $granite-gray;
+        }
+    }
+    
+    @media (max-whith: $breakpoint-lg) {
+        .contact_button--small {
+            margin-right: 0.25rem;
+        }
+    }
+}

@@ -1,0 +1,88 @@
+.about {
+    &__info {
+        text-align: center;
+        padding-top: 50px;
+        padding-left: 150px;
+        padding-right: 150px;
+    
+        background-color: $taupe-gray;
+    }
+
+    // titulo de cada uno de los elementos de products
+    &__title {
+        padding-top: 30px;
+        color: $snow; 
+    }
+
+    &__picture {
+        width: 100%;
+    }
+
+    &__content {
+        margin-bottom: 5rem;
+
+        p {
+            line-height: 2.5;
+            color: $snow;
+        }
+
+    }
+
+    &__info--light {
+        background-color: $white;
+            
+        .about__content {
+            p {
+                color: $quick-silver;
+            }
+        }
+
+        .about__title {
+            color: $granite-gray; 
+        }
+    }
+
+}
+
+.aboutus {
+    &__info {
+        text-align: center;
+        padding-top: 50px;
+        padding-left: 150px;
+        padding-right: 150px;
+        background-color: $white;
+    }
+
+    // titulo nosotros
+    &__title {
+        background-color: $jelly-bean;
+        font-family: raleway;
+        color: white;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        h1 {
+            font-size: $x-large;
+        }
+    }
+
+    &__picture { 
+        max-width: 300px;
+    }
+
+    &__name {
+
+    }
+
+    &__content {
+        margin-bottom: 5rem;
+
+        p {
+            line-height: 2.5;
+            color: $quick-silver;
+        }
+
+    }
+}

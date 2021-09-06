@@ -1,0 +1,36 @@
+.header {
+    min-height: 90vh;
+    background-color: $jelly-bean;
+    @include center-element-flex;
+    flex-direction: column;
+
+    @include large-breakpoint {
+        min-height: 90vh;
+    }
+
+    h1 {
+        color: $white;
+        font-size: $xx-large;
+        font-weight: $font-bold;
+        width: 60%;
+        text-align: center;  
+        
+        @include large-breakpoint {
+            width: 80%;
+            font-size: $x-large;
+        }
+    }
+
+    h2 {
+        color: $white;
+        font-size: $xx-large;
+        font-weight: $font-extra-light;
+        width: 60%;
+        text-align: center;  
+        
+        @include large-breakpoint {
+            width: 80%;
+            font-size: $x-large;
+        }
+    }
+}
